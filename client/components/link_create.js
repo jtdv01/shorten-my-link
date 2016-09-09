@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class LinkCreate extends Component{
   constructor(props){
     super(props);
-    this.state = {};
+    this.state = {error: ''};
   }
 
   handleSubmit(event){
